@@ -23,8 +23,7 @@ const nextConfig = {
     GOOGLE_STORAGE_PROJECT_ID: 'ecommerce-app-444531',
     MONGODB_URI: 'mongodb+srv://Yash:f500A06khWmFn4Qd@yash.pweao0h.mongodb.net/?retryWrites=true&w=majority&appName=Yash',
   },
-  // Temporarily disabled to fix build issues
-  // output: 'standalone',
+  output: 'standalone',
 };
 
 module.exports = nextConfig; 
